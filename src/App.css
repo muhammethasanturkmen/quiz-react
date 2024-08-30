@@ -1,0 +1,162 @@
+.quiz-container {
+  padding: 140px 224px;
+}
+
+.start-screen {
+  display: flex;
+  gap: 131px;
+}
+
+.secenek {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  button {
+    width: 564px;
+    height: 96px;
+    padding: 34px 379px 34px 108px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    border: transparent;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+  }
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  text-align: left;
+  color: #313E51;
+}
+
+.kalın {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 64px;
+  text-align: left;
+  color: #313E51;
+}
+
+.soru {
+  display: flex;
+  gap: 131px;
+  h2 {
+    width: 452px;
+  }
+}
+
+.cevap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 564px;
+}
+
+.cevap button {
+  border: transparent;
+  border-radius: 24px;
+  padding: 32px 379px 32px 108px;
+  background-color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #313E51;
+}
+
+.flex-right button {
+  background-color: #A729F5;
+  padding: 32px 179px 32px 179px;
+  color: #FFFFFF;
+}
+
+.active-question-no .total-question {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #626C7F;
+}
+
+.result {
+  display: flex;
+  gap: 143px;
+}
+
+.sonuc-cıktı {
+  padding: 144px 234px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+}
+
+.dogru {
+  font-size: 144px;
+  font-weight: 500;
+  line-height: 144px;
+  text-align: left;
+  color: #313E51;
+}
+
+.soru-sayı {
+  width: 141px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #626C7F;
+}
+
+@media (width < 798px) {
+  .quiz-container {
+    padding: 145px 64px;
+  }
+
+  .start-screen {
+    display: flex;
+    flex-direction: column;
+    gap: 131px;
+    width: 465px;
+  }
+
+  .soru {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .result {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media (width < 375px) {
+  .quiz-container {
+    padding: 160px 24px;
+  }
+
+  .start-screen {
+    display: flex;
+    flex-direction: column;
+    gap: 131px;
+    width: 327px;
+  }
+
+  .soru {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .result {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
